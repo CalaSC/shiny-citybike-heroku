@@ -2,11 +2,10 @@ library(shiny)
 require(readr)
 library(ggplot2)
 
-#citibike <- read_csv("https://firebasestorage.googleapis.com/v0/b/citybike-claudia-solis.appspot.com/o/citibike-tripdata.csv?alt=media&token=f2b325cd-c612-4623-b87b-a0e5f7f71ac7")
+citibike <- read_csv("https://firebasestorage.googleapis.com/v0/b/citybike-claudia-solis.appspot.com/o/citibike-tripdata.csv?alt=media&token=f2b325cd-c612-4623-b87b-a0e5f7f71ac7")
 
-
-setwd("C:/Users/Casa/Documents/Diplomado/Módulo 6")
-citibike <- read_csv("citibike-tripdata.csv")
+#setwd("C:/Users/Casa/Documents/Diplomado/Módulo 6")
+#citibike <- read_csv("citibike-tripdata.csv")
 
 ui <- shinyUI(pageWithSidebar(
   
